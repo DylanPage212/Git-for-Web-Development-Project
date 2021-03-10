@@ -1,0 +1,126 @@
+https://codepen.io/DylanPage/pen/yLVQjjv?editors=1100
+ 1. What is Semantic HTML? 
+ Blocking html with certain key elements like p, h1, section etc. Instead of just using divs. 
+
+    2. What is HTML used for? 
+    creating web pages/structural layouts for documents
+
+    3. What is an attribute and where do we put it? 
+    an attribute is something that is true about an element. It gives an element its content basically.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    its the title of a page, once.
+
+    5. Name two tags that have required attributes
+    img, a
+
+    6. What do we put in the head of our HTML document? 
+    <!DOCTYPE html>
+<html>
+
+    7. What is an id? 
+    a more specific way of categorizing an element relative to a class
+
+    8. What elements can I add an id to? 
+    all of them
+
+    9. How many times can I use the same id on a page?
+     one
+
+    10. What is a class? 
+    a way of categorizing an html element
+
+    11. What elements can I add a class to? 
+    all of them
+
+    12. How many times can I use the same class on a page? 
+    infinte
+
+    13. How do I get my link to open in a new tab?
+    control click
+
+    14. What is the alt attribute in the image tag used for? 
+    a description of the image
+
+    15. How do I reference an id?
+    #
+
+    16. What is the difference between a section and a div
+    a section is a section of a web page, whereas a div is a section of html code
+
+    17. What is CSS used for? 
+    styling webpages
+
+    18. How to we select an element? Example - every h2 on the page
+    h2 {
+
+    }
+    
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    a class and an id operate almost identically except that an id has priority over a class and has more specific use cases whereas
+    a class would likely be used to edit multiple elements throughout the document simultaneously. 
+    
+    20. How do we select classes in CSS?
+    .classname
+
+    21. How do we select a p element with a single class of “human””?
+    p .human
+
+    22. What is a parent child selector? When would this be useful? 
+    div > p {
+
+    }
+    this is useful for when you want to style elements that are only within another kind of element, class, id, etc.
+
+    23. How do you select all links within a div with the class of sidebar?
+      div > link .sidebar {
+
+      }
+    24. What is a pseudo selector?
+        it selects elements that are in a specific state (starts with a colon)
+
+    25. What do we use the change the spacing between lines?
+    the box model/line-height
+
+    26. What do we use to change the spacing between letters?
+    letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform
+
+    28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border: 1px dotted black;
+    }
+
+    29. How do I select everything on the page? 
+    *{
+
+    }
+
+    30. How do I write a comment in CSS?
+    /* */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    git rm, you need to be careful with it because it will not only delete the file from your repository but also your filesystem.
+
+    34. Why should I use version control? 
+    to update repositories without having to disturb the main branch
+
+    35. How often should I commit to github?
+    When you are ready to push your local repo? I'm not sure. 
+
+    36. What is the command we would use to push our repo up to github? 
+    git push 
+
+    37. Walk me through Lambda's git flow. 
+    First you fork the project from Github, then you add collaborators, then you clone the project into a local folder, 
+    then you cd into the repository file, then you branch it off using checkout -b FN-LN. From there you work on the project in 
+    your new branch. Once you are finished you add the changes that you made from your branch onto your main local branch, commit those changes
+    , and then push those changes up into github. Once your changes are on github you can submit a pull request following all sufficient procedure.
